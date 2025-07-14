@@ -2,27 +2,27 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Σ SKIBIDI BOPPY Σ - The Most Viral SKIBIDI BOPPY Memecoin 🧠💀',
-  description: 'SKIBIDI BOPPY $BOPPY - THE MOST VIRAL MEMECOIN 💪 100M+ VIEWS 🔥 SKIBIDI BOPPY ON THE WALL 🎵',
-  keywords: 'SKIBIDI BOPPY, meme coin, crypto, brain rot, viral, TikTok, $BOPPY',
+  title: '💫 SKIBIDI BOPPY 💫 - GET BOPPY OR GET REKT! 🚀💎',
+  description: 'SKIBIDI BOPPY $BOPPY - GET BOPPY OR GET REKT! 🔥 THE ULTIMATE BRAIN ROT MEMECOIN 💪 100M+ VIEWS 🎵 BOPPY TO THE MOON! 🚀',
+  keywords: 'SKIBIDI BOPPY, get boppy or get rekt, meme coin, crypto, brain rot, viral, TikTok, $BOPPY, memecoin, skibidi, boppy',
   authors: [{ name: 'Skibidi Boppy Team' }],
   openGraph: {
-    title: 'Σ SKIBIDI BOPPY Σ - Most Viral Brain Rot Memecoin',
-    description: 'THE MOST VIRAL MEMECOIN $BOPPY 🧠💀 100M+ VIEWS',
+    title: '💫 SKIBIDI BOPPY 💫 - GET BOPPY OR GET REKT!',
+    description: 'THE ULTIMATE BRAIN ROT MEMECOIN $BOPPY 🔥 GET BOPPY OR GET REKT! 💎🚀',
     type: 'website',
     images: [
       {
         url: '/images/skibidi-collage.jpeg',
         width: 1200,
         height: 630,
-        alt: 'Skibidi Boppy Meme Coin'
+        alt: 'Skibidi Boppy - Get Boppy or Get Rekt!'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Σ SKIBIDI BOPPY Σ - Most Viral Brain Rot Memecoin',
-    description: 'THE MOST VIRAL MEMECOIN $BOPPY 💪',
+    title: '💫 SKIBIDI BOPPY 💫 - GET BOPPY OR GET REKT!',
+    description: 'THE ULTIMATE BRAIN ROT MEMECOIN $BOPPY 🔥💎',
     images: ['/images/skibidi-collage.jpeg']
   },
   icons: {
