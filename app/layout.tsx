@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Σ SKIBIDI BOPPY Σ - The Most Viral SKIBIDI BOPPY Memecoin 🧠💀',
-  description: 'SKIBIDI BOPPY $BOPPY - THE MOST VIRAL MEMECOIN 💪 100M+ VIEWS 🔥 SIGMA SIGMA ON THE WALL 🎵',
+  description: 'SKIBIDI BOPPY $BOPPY - THE MOST VIRAL MEMECOIN 💪 100M+ VIEWS 🔥 SKIBIDI BOPPY ON THE WALL 🎵',
   keywords: 'SKIBIDI BOPPY, meme coin, crypto, brain rot, viral, TikTok, $BOPPY',
   authors: [{ name: 'Skibidi Boppy Team' }],
   openGraph: {

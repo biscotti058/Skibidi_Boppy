@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
-export default function SigmaBoyClone() {
+export default function SKIBIDI BOPPYBoyClone() {
   const [viewCount, setViewCount] = useState(100000000)
   const [isAnimating, setIsAnimating] = useState(false)
 
@@ -15,7 +15,7 @@ export default function SigmaBoyClone() {
     return () => clearInterval(interval)
   }, [])
 
-  const handleBecomeSigma = () => {
+  const handleBecomeSKIBIDI BOPPY = () => {
     setIsAnimating(true)
     setTimeout(() => setIsAnimating(false), 1000)
   }
@@ -106,7 +106,7 @@ export default function SigmaBoyClone() {
         </div>
       </div>
 
-      {/* FLOATING SIGMA SYMBOLS - Più caotici */}
+      {/* FLOATING SKIBIDI BOPPY SYMBOLS - Più caotici */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-16 right-1/4 text-6xl text-pink-500 animate-wobble font-bold">Σ</div>
         <div className="absolute bottom-1/4 left-1/4 text-4xl text-cyan-400 animate-bounce-crazy font-bold">Σ</div>
@@ -134,7 +134,7 @@ export default function SigmaBoyClone() {
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/5 left-2/3 text-2xl font-bold text-neon-green animate-wobble">BOPPY</div>
         <div className="absolute bottom-2/5 right-1/5 text-xl font-bold text-neon-pink animate-glitch">SKIBIDI</div>
-        <div className="absolute top-2/5 left-1/5 text-2xl font-bold text-cyan-400 animate-spin-chaos">SIGMA</div>
+        <div className="absolute top-2/5 left-1/5 text-2xl font-bold text-cyan-400 animate-spin-chaos">SKIBIDI BOPPY</div>
         <div className="absolute bottom-1/5 right-2/5 text-xl font-bold text-yellow-400 animate-jello">BASED</div>
         <div className="absolute top-1/8 right-1/8 text-lg font-bold text-neon-purple animate-bounce-crazy">VIRAL</div>
         <div className="absolute bottom-1/8 left-1/8 text-xl font-bold text-neon-orange animate-rubber-band">CHAOS</div>
@@ -160,7 +160,7 @@ export default function SigmaBoyClone() {
         {/* MAIN CARD */}
         <div className="bg-gradient-to-br from-pink-500 via-purple-600 to-orange-500 p-8 rounded-3xl border-8 border-green-400 shadow-2xl max-w-2xl w-full transform hover:scale-105 transition-transform animate-tilt-left">
           <div className="text-center mb-6">
-            <h2 className="text-3xl font-black text-cyan-400 mb-2 animate-wobble">🎵 SIGMA SIGMA ON THE WALL 🎵</h2>
+            <h2 className="text-3xl font-black text-cyan-400 mb-2 animate-wobble">🎵 SKIBIDI BOPPY SKIBIDI BOPPY ON THE WALL 🎵</h2>
             <h3 className="text-2xl font-bold text-white mb-4 animate-jello">{"WHO'S THE MOST BASED OF THEM ALL???"}</h3>
             <p className="text-lg font-bold text-yellow-300 animate-rubber-band">💪🧠</p>
           </div>
@@ -175,10 +175,10 @@ export default function SigmaBoyClone() {
 
           {/* MAIN BUTTON */}
           <Button
-            onClick={handleBecomeSigma}
+            onClick={handleBecomeSKIBIDI BOPPY}
             className={`w-full text-2xl font-black py-6 rounded-2xl bg-gradient-to-r from-purple-600 to-green-500 hover:from-green-500 hover:to-purple-600 border-4 border-pink-400 shadow-lg transform transition-all animate-bounce-crazy ${isAnimating ? "animate-rubber-band scale-110" : ""}`}
           >
-            BECOME SIGMA 💪
+            BECOME SKIBIDI BOPPY 💪
           </Button>
 
           {/* ACTION BUTTONS */}
@@ -199,7 +199,7 @@ export default function SigmaBoyClone() {
         <div className="mt-8 bg-gradient-to-r from-green-500 to-red-500 p-6 rounded-2xl border-4 border-pink-500 max-w-xl w-full animate-rubber-band">
           <p className="text-center text-xl font-bold text-white mb-4 animate-neon-flicker">WATCH THE BRAIN ROT ANTHEM 🧠🎵</p>
           <div className="bg-gradient-to-r from-cyan-400 to-purple-500 p-4 rounded-xl animate-wobble">
-            <p className="text-center text-2xl font-black text-white">Sigma Boppy</p>
+            <p className="text-center text-2xl font-black text-white">SKIBIDI BOPPY Boppy</p>
           </div>
         </div>
 
@@ -282,10 +282,10 @@ export default function SigmaBoyClone() {
         <div className="text-3xl animate-glitch">🎮</div>
       </div>
 
-      {/* Floating Sigma text variations */}
+      {/* Floating SKIBIDI BOPPY text variations */}
       <div className="absolute top-1/12 right-1/3 text-lg font-bold text-neon-green animate-fly-around opacity-70 pointer-events-none">SKIBIDI</div>
       <div className="absolute bottom-1/12 left-1/4 text-xl font-bold text-neon-pink animate-rubber-band opacity-60 pointer-events-none">BOPPY</div>
-      <div className="absolute top-4/5 right-1/6 text-lg font-bold text-neon-yellow animate-jello opacity-75 pointer-events-none">SIGMA</div>
+      <div className="absolute top-4/5 right-1/6 text-lg font-bold text-neon-yellow animate-jello opacity-75 pointer-events-none">SKIBIDI BOPPY</div>
       <div className="absolute bottom-4/5 left-1/8 text-xl font-bold text-neon-purple animate-wobble opacity-65 pointer-events-none">CHAOS</div>
 
       {/* Additional floating screenshots for extra chaos */}
