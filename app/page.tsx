@@ -282,7 +282,7 @@ export default function SkibidiBoppy() {
           <div className={`bg-gradient-to-r from-red-500 to-yellow-500 p-4 md:p-5 rounded-xl md:rounded-2xl mb-6 md:mb-8 border-2 md:border-4 border-cyan-400 ${getAnimationClass("animate-glitch", "animate-wobble")}`}>
             <p className={`text-center font-bold text-black mb-2 text-sm md:text-base ${getAnimationClass("animate-neon-flicker", "animate-pulse")}`}>CA:</p>
             <p className="text-center font-mono text-xs md:text-sm text-black break-all">
-              4N5jkEmdTx1ZQzjb4XowDJvHDzckByxMAf9Xa4bonk
+              6qqLUNacNWSZwM3QHWN8iK5QwfSVBVPBAT6x8A6nbonk
             </p>
           </div>
 
